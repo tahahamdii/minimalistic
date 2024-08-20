@@ -4,10 +4,15 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { DATA } from "@/data/resume";
 import Markdown from "react-markdown";
+import EmblaCarousel from "../components/EmblaCarousel";
+import { EmblaOptionsType } from 'embla-carousel'
+import '../app/css/embla.css'
 
 
 const BLUR_FADE_DELAY = 0.4;
-
+const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
+const SLIDE_COUNT = 5
+const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 export default function Home() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
@@ -45,7 +50,9 @@ export default function Home() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
-      </section>  
+      </section>
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+  
     </main>
   );
 }
