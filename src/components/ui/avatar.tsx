@@ -20,7 +20,7 @@ const Avatar = React.forwardRef<
     <span
       className={cn(
         "absolute top-0 right-0 flex items-center justify-center h-4 w-4 text-xs",
-        "bg-white rounded-full shadow-sm" // Optional: add a background and shadow for better visibility
+        "bg-inherit rounded-full shadow-sm" // Optional: add a background and shadow for better visibility
       )}
     >
       🎉
