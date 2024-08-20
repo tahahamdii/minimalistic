@@ -3,6 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { DATA } from "@/data/resume";
+import { ResumeCard } from "@/components/resume-card";
 import Markdown from "react-markdown";
 import EmblaCarousel from "../components/EmblaCarousel";
 import { EmblaOptionsType } from 'embla-carousel'
@@ -16,7 +17,7 @@ const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 export default function Home() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-           <section id="hero">
+      <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
@@ -51,7 +52,37 @@ export default function Home() {
           </Markdown>
         </BlurFade>
       </section>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <section id="education">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Education</h2>
+          </BlurFade>
+          {DATA.education.map((education, id) => (
+            <BlurFade
+              key={education.school}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={education.school}
+                href={education.href}
+                logoUrl={education.logoUrl}
+                altText={education.school}
+                title={education.school}
+                subtitle={education.degree}
+                period={`${education.start} - ${education.end}`}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
+      <section>
+      <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+          </BlurFade>
+           
+        </div>
+      </section>
   
     </main>
   );

@@ -74,13 +74,21 @@ export const DATA = {
   ],
   education: [
     {
-      school: "pp",
-      href: "p.so",
-      degree: "s3, p, p, p",
-      logoUrl: "/p.jpg",
-      start: "p",
-      end: "p",
-    }
+      school: "IPEIM Monastir",
+      href: "https://ipeim.rnu.tn/",
+      degree: "Preparatory Cycle for Engineering",
+      logoUrl: "https://ipeim.rnu.tn/stylesheets/images/logo-white.png",
+      start: "2019",
+      end: "2022",
+    },
+    {
+        school: "ESPRIT",
+        href: "https://esprit.tn/",
+        degree: "Software Engineering degree",
+        logoUrl: "https://pbs.twimg.com/profile_images/1394261489054277638/rijXG1C__400x400.jpg",
+        start: "2022",
+        end: "2025",
+      }
   ],
   projects: [
     {
