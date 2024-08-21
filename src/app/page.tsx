@@ -166,32 +166,30 @@ export default function Home() {
             </div>
           </BlurFade>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 relative z-0">
-          <div className="flex flex-col justify-center">
-            <h2 className="text-2xl font-semibold tracking-tight">
-              Your Title Here
-            </h2>
-            <p className="mt-4 text-slate-500">
-              Some description or content to go alongside the pin.
-            </p>
-          </div>
-            <PinContainer
-              title="Tunis, Tunisia"
-              
-            >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] relative z-10">
-                <Image
-                src={img}
-                alt="aa"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-lg z-0" 
-                
-                />
-                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-              </div>
-            </PinContainer>
-          </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+  <div className="flex flex-col justify-center">
+    <h2 className="text-2xl font-semibold tracking-tight">
+      Your Title Here
+    </h2>
+    <p className="mt-4 text-slate-500">
+      Some description or content to go alongside the pin.
+    </p>
+  </div>
+
+  <PinContainer title="Tunis, Tunisia">
+    <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
+      <Image
+        src={img}
+        alt="aa"
+        layout="fill"
+        objectFit="cover"
+        className="rounded-lg z-0"
+      />
+      <div className="flex flex-1 w-full rounded-lg mt-2 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+    </div>
+  </PinContainer>
+</div>
+
       </section>
       
   
