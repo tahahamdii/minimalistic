@@ -166,7 +166,7 @@ export default function Home() {
             </div>
           </BlurFade>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 relative z-0">
           <div className="flex flex-col justify-center">
             <h2 className="text-2xl font-semibold tracking-tight">
               Your Title Here
@@ -177,15 +177,15 @@ export default function Home() {
           </div>
             <PinContainer
               title="Tunis, Tunisia"
-              href=""
+              
             >
-              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] relative z-10">
                 <Image
                 src={img}
                 alt="aa"
                 layout="fill"
                 objectFit="cover"
-                className="rounded-lg" 
+                className="rounded-lg z-0" 
                 
                 />
                 <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
