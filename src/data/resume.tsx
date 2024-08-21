@@ -135,11 +135,7 @@ export const DATA = {
         
       ],
       links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+     
         {
           type: "GitHub",
           href: "https://github.com/tahahamdii/Payment-Solution-for-Ecommerce",
@@ -170,11 +166,7 @@ export const DATA = {
         
       ],
       links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+        
         {
           type: "GitHub",
           href: "https://github.com/tahahamdii/OncoFlow-Deep-Learning-MLOps-for-Adenocarcinoma",
@@ -207,11 +199,7 @@ export const DATA = {
         
       ],
       links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+        
         {
           type: "GitHub",
           href: "https://github.com/tahahamdii/SignLanguageProject",
@@ -240,11 +228,7 @@ export const DATA = {
         
       ],
       links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+        
         {
           type: "GitHub",
           href: "https://github.com/tahahamdii/SQLine",
@@ -298,30 +282,27 @@ export const DATA = {
       dates: "Jannuary 2024 - April 2024",
       active: true,
       description:
-      "job portal similar to LinkedIn where users can apply for jobs.",
+      "I worked on The Energy Guard project with Coficab, a manufacturer, where I developed a web application for comprehensive industrial energy management. The app integrates IoT sensors on machines to monitor and analyze energy usage. It also incorporates a machine learning model to predict energy consumption and suggests best practices for reducing it",
       technologies: [
         "Node.js",
         "Express",
-        "MongoDB",
+        "IoT",
+        "Machine Learning",
         "React",
-        "Redux",
-        "MongoDB",
-        "JWT",
+        "Chart.js",
+        "WEbsockets",
         "Docker",
+        "Jenkins",
 
         
 
         
       ],
       links: [
-        {
-          type: "Website",
-          href: "",
-          icon: <Icons.globe className="size-3" />,
-        },
+        
         {
           type: "GitHub",
-          href: "https://github.com/tahahamdii/JobPortal",
+          href: "https://github.com/tahahamdii/Backend-EnergyG",
           icon: <Icons.github className="size-3" />,
         }
       ],
