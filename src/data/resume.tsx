@@ -1,6 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
-
+import img from "./payment.png"
 export const DATA = {
   name: "Taha Hamdi",
   initials: "TH",
@@ -118,14 +118,20 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "p1",
-      href: "https://dub.sh/",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Payment Solution for Ecommerce",
+      href: "",
+      dates: "May 2024 - July 2024",
       active: true,
       description:
-        "kkkkkk.",
+        "microservices project showcasing : #ConfigurationServers, #ServiceDiscovery (Eureka), #APIGateway (Spring Cloud Gateway), #AsynchronousCommunication (Kafka), #SynchronousCommunication (OpenFeign, RestTemplate), #DistributedTracing (Zipkin, Spring Actuator), #Security (Keycloak), and infrastructure setup with #Docker and #DockerCompose.",
       technologies: [
-        "Next.js",
+        "Sprin Boot",
+        "Java",
+        "Kafka",
+        "Eureka",
+        "Zipkin",
+        "Keycloak",
+        "Docker"
         
       ],
       links: [
@@ -134,11 +140,196 @@ export const DATA = {
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/Payment-Solution-for-Ecommerce",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
       image: "",
       video:
         "pmmpm",
-    }
+    },
+    {
+      title: "Adenocarcinoma Detection",
+      href: "",
+      dates: "July 2024 - August 2024",
+      active: true,
+      description:
+        "focusing on detecting and analyzing adenocarcinoma using advanced deep learning techniques. It includes a complete #MLOps pipeline with #MLflow and #DVC for managing models, along with #CI/CD for smooth deployment.",
+      technologies: [
+        "Machine Learning",
+        "Deep Learning",
+        "Python",
+        "MLflow",
+        "DVC",
+        "CI/CD",
+        "Docker",
+        "MLOps"
+
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/OncoFlow-Deep-Learning-MLOps-for-Adenocarcinoma",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "Real-Time Sign Language Communication App",
+      href: "",
+      dates: "April 2024 - Juin 2024",
+      active: true,
+      description:
+      "I worked on a freelance project for a startup, developing an app with a TensorFlow-based sign language detection system integrated into a Spring Boot backend. The app ensures secure communication and real-time messaging via WebSocket. The Flutter front-end allows users to communicate through sign language, which is detected, refined by the OpenAI API, and delivered instantly. The app also features a Jenkins pipeline for CI CD",
+      technologies: [
+        "Spring Boot",
+        "JWT",
+        "WebSocket",
+        "TensorFlow",
+        "Flutter",
+        "OpenAI",
+        "Jenkins",
+        "CI/CD",
+        "Docker",
+        
+
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/SignLanguageProject",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "Natural Language Database Interaction App",
+      href: "",
+      dates: "Mars 2024 - April 2024",
+      active: true,
+      description:
+      "I developed a Python chat app that lets users communicate with their database using natural language. Integrated with MySQL, OpenAI, and Langchain, the app provides SQL queries and explanations through an easy-to-use interface.",
+      technologies: [
+        "Python",
+        "MySQL",
+        "OpenAI",
+        "Langchain",
+
+        
+
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/SQLine",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "Modern Job Portal",
+      href: "",
+      dates: "Jannuary 2024 - Mars 2024",
+      active: true,
+      description:
+      "job portal similar to LinkedIn where users can apply for jobs.",
+      technologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React",
+        "Redux",
+        "MongoDB",
+        "JWT",
+        "Docker",
+
+        
+
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/JobPortal",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "Energy Guard",
+      href: "",
+      dates: "Jannuary 2024 - April 2024",
+      active: true,
+      description:
+      "job portal similar to LinkedIn where users can apply for jobs.",
+      technologies: [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "React",
+        "Redux",
+        "MongoDB",
+        "JWT",
+        "Docker",
+
+        
+
+        
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/JobPortal",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "pmmpm",
+    },
+    
   ],
   
 } as const;
