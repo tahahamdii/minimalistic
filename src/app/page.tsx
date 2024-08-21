@@ -123,7 +123,7 @@ export default function Home() {
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I have built everything from straightforward websites
                    to advanced web apps. 
-                   Here are some of the projects I'm most excited about.
+                   Here are some of the projects Im most excited about.
                 </p>
               </div>
             </div>
