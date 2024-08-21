@@ -1,5 +1,7 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+import { TbBrandLeetcode } from "react-icons/tb";
+
 import img from "./payment.png"
 export const DATA = {
   name: "Taha Hamdi",
@@ -55,6 +57,12 @@ export const DATA = {
 
         navbar: false,
       },
+      leetcode : {
+        name: "LeetCode",
+        url: "https://leetcode.com/hamdi_taha8/",
+        icon: TbBrandLeetcode,
+        navbar: true,
+      }
     },
   },
 
