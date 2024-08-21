@@ -9,6 +9,8 @@ import EmblaCarousel from "../components/EmblaCarousel";
 import { EmblaOptionsType } from 'embla-carousel'
 import '../app/css/embla.css'
 import { ProjectCard } from "@/components/project-card";
+import { PinContainer } from "@/components/ui/3d-pin";
+import img from '../data/location.jpg'
 
 
 const BLUR_FADE_DELAY = 0.4;
@@ -164,6 +166,32 @@ export default function Home() {
             </div>
           </BlurFade>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+          <div className="flex flex-col justify-center">
+            <h2 className="text-2xl font-semibold tracking-tight">
+              Your Title Here
+            </h2>
+            <p className="mt-4 text-slate-500">
+              Some description or content to go alongside the pin.
+            </p>
+          </div>
+            <PinContainer
+              title="Tunis, Tunisia"
+              href=""
+            >
+              <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+                <Image
+                src={img}
+                alt="aa"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg" 
+                
+                />
+                <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+              </div>
+            </PinContainer>
+          </div>
       </section>
       
   
