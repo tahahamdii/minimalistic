@@ -164,7 +164,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "https://sharedby.blomp.com/jTb7Rl",
+        "pmpm",
     },
     {
       title: "Payment Solution for Ecommerce",

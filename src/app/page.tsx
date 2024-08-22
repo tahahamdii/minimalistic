@@ -14,6 +14,7 @@ import img from '../data/location.jpg'
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { Badge } from "@/components/ui/badge";
+import { MarqueeDemo } from "@/components/MarqueeDemo";
 
 
 const testimonials = [
@@ -184,6 +185,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <MarqueeDemo/>
       <section id="contact">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-12">
           <div className="space-y-3 col-span-1 mt-12">
@@ -196,6 +198,15 @@ export default function Home() {
 
             Im currently looking for new opportunities, my inbox is always open.
           </p>
+          <p className="text-base font-normal tracking-tight font-sans">
+      <a 
+        href="mailto:hamdi.taha@esprit.tn" 
+        className="text-blue-500 hover:underline italic"
+      >
+        
+        hamdi.taha@esprit.tn
+      </a>
+      </p>
         </div>
         </BlurFade>
     </div>
