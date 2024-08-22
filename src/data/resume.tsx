@@ -59,7 +59,7 @@ export const DATA = {
       },
       leetcode : {
         name: "LeetCode",
-        url: "https://leetcode.com/hamdi_taha8/",
+        url: "https://leetcode.com/tahahamdii/",
         icon: TbBrandLeetcode,
         navbar: true,
       }
