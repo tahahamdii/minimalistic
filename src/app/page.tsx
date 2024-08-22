@@ -12,9 +12,24 @@ import { ProjectCard } from "@/components/project-card";
 import { PinContainer } from "@/components/ui/3d-pin";
 import img from '../data/location.jpg'
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 
+const testimonials = [
+  {
+    quote:
+    "Taha is the best developer I've ever worked with",
+    name: "Yassine Hamdi",
+    title: "Taha is the best developer I've ever worked with",
+  },
+  {
+    quote:
+    "Taha is the best developer I've ever worked with",
+    name: "Yassine Hamdi",
+    title: "Taha is the best developer I've ever worked with",
+  },
 
+];
 const BLUR_FADE_DELAY = 0.4;
 const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
 const SLIDE_COUNT = 5
@@ -33,7 +48,7 @@ export default function Home() {
                 text={`hi, i'm Taha 👋`}
               />
               <BlurFadeText
-                className="max-w-[600px] md:text-xl"
+                className="max-w-[600px] md:text-xl italic"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
@@ -164,7 +179,7 @@ export default function Home() {
           </h2>
           <p className="text-base font-normal tracking-tight font-sans italic">
 
-            I'm currently looking for new opportunities, my inbox is always open.
+            Im currently looking for new opportunities, my inbox is always open.
           </p>
         </div>
       </BlurFade>
@@ -186,7 +201,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-
+  
 
 
     </main>
