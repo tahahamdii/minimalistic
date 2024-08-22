@@ -185,7 +185,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <MarqueeDemo/>
+      <section>
+      <BlurFade delay={BLUR_FADE_DELAY * 10}>
+              <MarqueeDemo/>
+      </BlurFade>
+      </section>
+      
       <section id="contact">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-12">
           <div className="space-y-3 col-span-1 mt-12">
