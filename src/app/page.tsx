@@ -15,6 +15,7 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { Badge } from "@/components/ui/badge";
 import { MarqueeDemo } from "@/components/MarqueeDemo";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
 
 
 const testimonials = [
@@ -54,7 +55,19 @@ export default function Home() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <BlurFade delay={BLUR_FADE_DELAY}>
+              <div className="flex space-x-4 pt-4">
+                <a href="https://github.com/tahahamdii" target="_blank" rel="noopener noreferrer">
+                <FaGithub className="text-xl hover:text-gray-600" />
+                </a>
+                <a href="https://linkedin.com/in/hamditaha" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin className="text-xl hover:text-blue-600" />
+                </a>
+              
+                </div>
+                </BlurFade>
             </div>
+            
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
