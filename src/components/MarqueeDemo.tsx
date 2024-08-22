@@ -17,7 +17,7 @@ const reviews = [
       name: "Imem Hamdi",
       username: "@imem",
       body: "Taha brings a rare mix of professionalism and warmth. His dedication to his work is inspiring, and he knows how to make every moment fun and productive. A true star in his field!",
-      img: "https://avatar.vercel.sh/imem",
+      img: "https://media.licdn.com/dms/image/v2/D4E35AQFYzUyQAbT-bw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719666552589?e=1724965200&v=beta&t=gUyxkJMfdsIR07d4cp1OVwMbYaOYwcT3e7AiUArUOYk",
     },
     {
       name: "Yousri Hamdene",
@@ -53,6 +53,8 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
+      <img className="rounded-full" width="32" height="32" alt="" src={img} />
+
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
@@ -67,7 +69,7 @@ const ReviewCard = ({
 
 export function MarqueeDemo() {
   return (
-    <div className="relative flex h-[180px] w-full flex-col items-center justify-center overflow-hidden  bg-inherit">
+    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden  bg-inherit">
       <Marquee pauseOnHover className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
