@@ -15,17 +15,28 @@ export const DATA = {
     "Hey there! I'm Taha from Tunis Tunisia. I’m a Software Engineer who loves coding, swimming, and making new friends wherever I end up. I specialize in backend development and machine learning, focusing on building reliable systems and exploring the cool stuff in AI.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQEG8aHLGSwZ-g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723130835252?e=1729728000&v=beta&t=f1aw007_P3S15A7aLSq4X4IiBUaZPbMNW4BPdx1ksXo",
   skills: [
-    "React",
-    "Next.js",
-    "Typescript",
+    "Spring Boot",
     "Node.js",
+    "Java",
+    "C++",
     "Python",
     "Go",
     "Postgres",
     "Docker",
     "Kubernetes",
-    "Java",
-    "C++",
+    "Jenkins",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Keras",
+    "Hugging Face Transformers",
+    "XGBoost",
+    "Azure Virtual Machines",
+    "Azure Kubernetes Service",
+    "Azure Machine Learning",
+    "DevOps",
+
+    
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -126,6 +137,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Sonogenetics",
+      href: "",
+      dates: "Juin 2024 - August 2024",
+      active: true,
+      description:
+      "I worked with Talan Tunisie on a project that uses AI and sonogenetics to detect and treat cancer without painful biopsies. The AI adjusts ultrasound settings for each patient, improving diagnosis and treatment. The system gets better over time by learning from different cases.",
+      technologies: [
+        "ML",
+        "DL",
+        "NLP",
+        "Computer Vision",
+        "TensorFlow",
+        "PyTorch",
+        "Angular",
+        "Node.js",
+        "Jenkins",
+      ],
+      links: [
+        
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/Backend-EnergyG",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "https://sharedby.blomp.com/jTb7Rl",
+    },
+    {
       title: "Payment Solution for Ecommerce",
       href: "",
       dates: "May 2024 - July 2024",
@@ -151,8 +192,7 @@ export const DATA = {
         }
       ],
       image: "",
-      video:
-        "pmmpm",
+      video: "aa",
     },
     {
       title: "Adenocarcinoma Detection",
@@ -243,9 +283,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/image.png",
       video:
-        "pmmpm",
+        "",
     },
     {
       title: "Modern Job Portal",

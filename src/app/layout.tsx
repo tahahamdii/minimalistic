@@ -6,7 +6,6 @@ import { Inter as FontSans } from "next/font/google";
 import Navbar from "@/components/navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
-
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",

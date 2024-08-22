@@ -13,6 +13,7 @@ import { PinContainer } from "@/components/ui/3d-pin";
 import img from '../data/location.jpg'
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
+import { Badge } from "@/components/ui/badge";
 
 
 const testimonials = [
@@ -128,6 +129,20 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section id="skills">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 9}>
+            <h2 className="text-xl font-bold">Skills</h2>
+          </BlurFade>
+          <div className="flex flex-wrap gap-1">
+            {DATA.skills.map((skill, id) => (
+              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge key={skill}>{skill}</Badge>
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       <section id="projects">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -182,9 +197,9 @@ export default function Home() {
             Im currently looking for new opportunities, my inbox is always open.
           </p>
         </div>
-      </BlurFade>
+        </BlurFade>
     </div>
-
+    <BlurFade delay={BLUR_FADE_DELAY * 10}>
     <div className="col-span-1 flex justify-center items-center">
       <PinContainer title="+216 95 092 609">
         <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
@@ -199,6 +214,9 @@ export default function Home() {
         </div>
       </PinContainer>
     </div>
+    </BlurFade>
+
+    
   </div>
 </section>
   
