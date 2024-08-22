@@ -11,6 +11,8 @@ import '../app/css/embla.css'
 import { ProjectCard } from "@/components/project-card";
 import { PinContainer } from "@/components/ui/3d-pin";
 import img from '../data/location.jpg'
+import { FaEnvelope, FaPhone } from "react-icons/fa";
+
 
 
 const BLUR_FADE_DELAY = 0.4;
@@ -44,7 +46,7 @@ export default function Home() {
             </BlurFade>
           </div>
         </div>
-      </section> 
+      </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -56,11 +58,11 @@ export default function Home() {
         </BlurFade>
       </section>
       <section className="rounded-2xl">
-      <div className="flex min-h-0 flex-col gap-y-3 ">
+        <div className="flex min-h-0 flex-col gap-y-3 ">
           <BlurFade delay={BLUR_FADE_DELAY * 5} >
-          <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+            <EmblaCarousel slides={SLIDES} options={OPTIONS} />
           </BlurFade>
-           
+
         </div>
       </section>
       <section id="education">
@@ -124,8 +126,8 @@ export default function Home() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I have built everything from straightforward websites
-                   to advanced web apps. 
-                   Here are some of the projects Im most excited about.
+                  to advanced web apps.
+                  Here are some of the projects Im most excited about.
                 </p>
               </div>
             </div>
@@ -153,46 +155,40 @@ export default function Home() {
         </div>
       </section>
       <section id="contact">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 10}>
-            <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                Contact
-              </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
-              </h2>
-              
-            </div>
-          </BlurFade>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-12">
+          <div className="space-y-3 col-span-1 mt-12">
+      <BlurFade delay={BLUR_FADE_DELAY * 10}>
+        <div className="space-y-3 mt-16">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            Get in Touch
+          </h2>
+          <p className="text-base font-normal tracking-tight font-sans italic">
+
+            I'm currently looking for new opportunities, my inbox is always open.
+          </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
-  <div className="flex flex-col justify-center">
-    <h2 className="text-2xl font-semibold tracking-tight">
-      Your Title Here
-    </h2>
-    <p className="mt-4 text-slate-500">
-      Some description or content to go alongside the pin.
-    </p>
-  </div>
-
-  <PinContainer title="Tunis, Tunisia">
-    <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
-      <Image
-        src={img}
-        alt="aa"
-        layout="fill"
-        objectFit="cover"
-        className="rounded-lg z-0"
-      />
-      <div className="flex flex-1 w-full rounded-lg mt-2 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+      </BlurFade>
     </div>
-  </PinContainer>
-</div>
 
-      </section>
-      
-  
+    <div className="col-span-1 flex justify-center items-center">
+      <PinContainer title="+216 95 092 609">
+        <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
+          <Image
+            src={img}
+            alt="aa"
+            layout="fill"
+            objectFit="cover"
+            className="rounded-lg z-0"
+          />
+          <div className="flex flex-1 w-full rounded-lg mt-2 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+        </div>
+      </PinContainer>
+    </div>
+  </div>
+</section>
+
+
+
     </main>
   );
 }
