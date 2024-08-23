@@ -10,9 +10,9 @@ export const DATA = {
   location: "Tunis, Tunisia",
   locationLink: "",
   description:
-    "Software Engineer ",
+    "Software Engineer / Junior entrepreneur. ",
   summary:
-    "Hey there! I'm Taha from Tunis Tunisia. I’m a Software Engineer who loves coding, swimming, and making new friends wherever I end up. I specialize in backend development and machine learning, focusing on building reliable systems and exploring the cool stuff in AI.",
+    "it's me Taha from Tunis 📍. I'm a final-year software engineering student at ESPRIT.  I specialize in backend development and machine learning, recently interned [@Talan](https://www.linkedin.com/company/talan-tunisie/) for the summer, and i'm currently looking for an end-of-study internship, i'm highly collaborative and i always aim to bring my best to the team ! ",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQEG8aHLGSwZ-g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723130835252?e=1729728000&v=beta&t=f1aw007_P3S15A7aLSq4X4IiBUaZPbMNW4BPdx1ksXo",
   skills: [
     "Spring Boot",

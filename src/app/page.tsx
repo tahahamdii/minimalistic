@@ -15,7 +15,9 @@ import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { Badge } from "@/components/ui/badge";
 import { MarqueeDemo } from "@/components/MarqueeDemo";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
+
 
 
 const testimonials = [
@@ -61,7 +63,10 @@ export default function Home() {
                 <FaGithub className="text-xl hover:text-gray-600" />
                 </a>
                 <a href="https://linkedin.com/in/hamditaha" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="text-xl hover:text-blue-600" />
+                <FaLinkedin className="text-xl hover:text-gray-600" />
+                </a>
+                <a href="https://medium.com/@hamdi.taha" target="_blank" rel="noopener noreferrer">
+                <FaMedium className="text-xl hover:text-gray-600" />
                 </a>
               
                 </div>
