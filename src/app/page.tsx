@@ -18,6 +18,7 @@ import { MarqueeDemo } from "@/components/MarqueeDemo";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 
 
 
@@ -82,6 +83,11 @@ export default function Home() {
             {DATA.summary}
           </Markdown>
         </BlurFade>
+      </section>
+      <section>
+      <BlurFade delay={BLUR_FADE_DELAY * 5}>
+              <MarqueeDemo1/>
+      </BlurFade>
       </section>
       <section className="rounded-2xl">
         <div className="flex min-h-0 flex-col gap-y-3 ">
@@ -199,6 +205,7 @@ export default function Home() {
               <MarqueeDemo/>
       </BlurFade>
       </section>
+      
       
       <section id="contact">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-12">
