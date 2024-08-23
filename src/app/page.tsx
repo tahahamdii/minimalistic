@@ -89,14 +89,14 @@ export default function Home() {
               <MarqueeDemo1/>
       </BlurFade>
       </section>
-      <section className="rounded-2xl">
+      {/* <section className="rounded-2xl">
         <div className="flex min-h-0 flex-col gap-y-3 ">
           <BlurFade delay={BLUR_FADE_DELAY * 5} >
             <EmblaCarousel slides={SLIDES} options={OPTIONS} />
           </BlurFade>
 
         </div>
-      </section>
+      </section> */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
