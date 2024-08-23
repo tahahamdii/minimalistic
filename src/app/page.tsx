@@ -17,24 +17,12 @@ import { Badge } from "@/components/ui/badge";
 import { MarqueeDemo } from "@/components/MarqueeDemo";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 
 
-const testimonials = [
-  {
-    quote:
-    "Taha is the best developer I've ever worked with",
-    name: "Yassine Hamdi",
-    title: "Taha is the best developer I've ever worked with",
-  },
-  {
-    quote:
-    "Taha is the best developer I've ever worked with",
-    name: "Yassine Hamdi",
-    title: "Taha is the best developer I've ever worked with",
-  },
 
-];
+
 const BLUR_FADE_DELAY = 0.4;
 const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
 const SLIDE_COUNT = 5
@@ -50,7 +38,7 @@ export default function Home() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`hi, i'm Taha 👋`}
+                text={`hi, i'm taha `}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl italic"
@@ -67,6 +55,9 @@ export default function Home() {
                 </a>
                 <a href="https://medium.com/@hamdi.taha" target="_blank" rel="noopener noreferrer">
                 <FaMedium className="text-xl hover:text-gray-600" />
+                </a>
+                <a href="mailto:hamdi.taha@esprit.tn" target="_blank" rel="noopener noreferrer">
+                <FaEnvelope className="text-xl hover:text-gray-600" />
                 </a>
               
                 </div>
