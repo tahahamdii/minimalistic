@@ -19,6 +19,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
+import { TbBrandLeetcode } from "react-icons/tb";
 
 
 
@@ -58,6 +59,9 @@ export default function Home() {
                 </a>
                 <a href="mailto:hamdi.taha@esprit.tn" target="_blank" rel="noopener noreferrer">
                 <FaEnvelope className="text-xl hover:text-gray-600" />
+                </a>
+                <a href="https://leetcode.com/u/tahahamdii" target="_blank" rel="noopener noreferrer">
+                <TbBrandLeetcode className="text-xl hover:text-gray-600" />
                 </a>
               
                 </div>
