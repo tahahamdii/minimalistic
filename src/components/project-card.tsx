@@ -50,7 +50,16 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {image && (
+          <Image
+            src={image}
+            alt={title}
+            width={500}
+            height={300}
+            className="h-40 w-full object-cover object-top rounded-t-lg"
+          />
+        )}
+        {/* {video && (
           <video
             src={video}
             autoPlay
@@ -60,16 +69,8 @@ export function ProjectCard({
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
             
-        )}
-        {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
-        )}
+        )} */}
+        
       </Link>
       <CardHeader className="px-2">
         <div className="space-y-1">

@@ -23,7 +23,6 @@ import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 
 
 
-
 const BLUR_FADE_DELAY = 0.4;
 const OPTIONS: EmblaOptionsType = { dragFree: true, loop: true }
 const SLIDE_COUNT = 5

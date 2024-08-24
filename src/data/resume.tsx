@@ -161,7 +161,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/image.png",
       video:
         "https://sharedby.blomp.com/jTb7Rl",
     },
@@ -190,7 +190,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/payment.png",
       video: "aa",
     },
     {
@@ -220,7 +220,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/mlops.png",
       video:
         "pmmpm",
     },
@@ -253,7 +253,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/sign.webp",
       video:
         "pmmpm",
     },
@@ -282,7 +282,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "/image.png",
+      image: "/sql.jpg",
       video:
         "",
     },
@@ -319,7 +319,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/job.png",
       video:
         "pmmpm",
     },
@@ -353,7 +353,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "",
+      image: "/coficab.jpg",
       video:
         "pmmpm",
     },
