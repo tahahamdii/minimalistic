@@ -20,12 +20,6 @@ const reviews = [
       body: "Taha brings a rare mix of professionalism and warmth. His dedication to his work is inspiring, and he knows how to make every moment fun and productive. A true star in his field!",
       img: "https://scontent.ftun10-1.fna.fbcdn.net/v/t1.15752-9/456218431_472824579001316_8407392906289465516_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=zJiN29s5mGIQ7kNvgFw56MY&_nc_ht=scontent.ftun10-1.fna&_nc_gid=At70tNv_QDRsIFlYcnS477F&oh=03_Q7cD1QGmHzl-QvhcQpJuQlZxDg_Mg8YqO4WKGmXsgP-J83fi3w&oe=66F004C9",
     },
-    {
-      name: "Yousri Hamdene",
-      username: "@yousri",
-      body: "Taha is such a joy to work with! He's a true professional with an infectious positive attitude, and his ability to deliver results is top-notch. Anyone would be lucky to have him on their team.",
-      img: "https://scontent.ftun10-2.fna.fbcdn.net/v/t1.15752-9/454700157_1310872446400853_4991347569785616560_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=9f807c&_nc_ohc=ddEsJf7V9n4Q7kNvgHOKtdt&_nc_ht=scontent.ftun10-2.fna&oh=03_Q7cD1QG38jyihVxoKh0uKIHD_2jnPCqXlD_lEob6zz6YuNFyCQ&oe=66EF125F",
-    },
     
   ];
 
