@@ -83,7 +83,7 @@ export const DATA = {
       badges: [],
       location: "On site",
       title: "Ai Intern",
-      logoUrl: "https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/354048503_603407435224336_1560140732932918241_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=sAJFAKDLJVwQ7kNvgGjj-u4&_nc_ht=scontent.ftun9-1.fna&oh=00_AYDu6f1OvwE4pDbnmWxNd_6M99mvtMhalsgyAAaE5elp-w&oe=66CAC29C",
+      logoUrl: "/talan.png",
       start: "Juin 2024",
       end: "August 2024",
       description:
