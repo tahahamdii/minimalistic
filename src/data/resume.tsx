@@ -83,7 +83,7 @@ export const DATA = {
       badges: [],
       location: "On site",
       title: "Ai Intern",
-      logoUrl: "/talan.png",
+      logoUrl: "./talan.png",
       start: "Juin 2024",
       end: "August 2024",
       description:
