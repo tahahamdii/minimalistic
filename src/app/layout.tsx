@@ -6,6 +6,8 @@ import { Inter as FontSans } from "next/font/google";
 import Navbar from "@/components/navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/react"
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -37,7 +39,7 @@ export default function RootLayout({
             <Navbar/>
           </TooltipProvider>
         </ThemeProvider>
-            
+        <Analytics/>
       </body>
     </html>
   );
