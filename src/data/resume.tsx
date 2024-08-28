@@ -171,7 +171,7 @@ export const DATA = {
       dates: "May 2024 - July 2024",
       active: true,
       description:
-        "microservices project showcasing : #ConfigurationServers, #ServiceDiscovery (Eureka), #APIGateway (Spring Cloud Gateway), #AsynchronousCommunication (Kafka), #SynchronousCommunication (OpenFeign, RestTemplate), #DistributedTracing (Zipkin, Spring Actuator), #Security (Keycloak), and infrastructure setup with #Docker and #DockerCompose.",
+        "Microservices project featuring Configuration Servers, Service Discovery (Eureka), API Gateway, async (Kafka) and sync (OpenFeign, RestTemplate) communication, distributed tracing, security with Keycloak, and Docker infrastructure. 🛠️",
       technologies: [
         "Sprin Boot",
         "Java",
