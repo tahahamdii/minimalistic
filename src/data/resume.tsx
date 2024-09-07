@@ -136,7 +136,7 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Sonogenetics",
+      title: "Sonocure: AI for Cancer Detection",
       href: "",
       dates: "Juin 2024 - August 2024",
       active: true,
@@ -163,7 +163,7 @@ export const DATA = {
       ],
       image: "/image.png",
       video:
-        "https://sharedby.blomp.com/jTb7Rl",
+        "https://taha-bucket-v1.s3.amazonaws.com/demo.mp4",
     },
     {
       title: "Payment Solution for Ecommerce",
