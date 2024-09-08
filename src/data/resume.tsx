@@ -89,7 +89,18 @@ export const DATA = {
       description:
         "I was fortunate to work on an innovative project aimed at detecting and treating cancer using ultrasound technology, which helps avoid invasive biopsies. Collaborating with a dedicated team at Talan Innovation Factory, I contributed to developing new solutions that focus on using ultrasound waves and biomarkers for early cancer detection and precise treatment.",
     },
-    
+    {
+      company: "COFICAB",
+      href: "p.p",
+      badges: [],
+      location: "On site",
+      title: "Sofware Engineer Intern",
+      logoUrl: "./cropped-COFICAB-LOGO-Square.png",
+      start: "Jannuary 2024",
+      end: "May 2024",
+      description:
+        "Worked on a smart web app designed for industrial energy management, focusing on real-time monitoring and optimization of energy consumption .",
+    },
     {
       company: "ESPRIT",
       href: "p.p",
@@ -102,12 +113,13 @@ export const DATA = {
       description:
         "I was lucky enough to intern on a super cool Neurogaming and Pathfinding project, working with Rim Somaii. During this time, I got to jump in and help out with different parts of the project, using what I know about game development and deep learning.",
     },
+    
     {
       company: "INCEPTUM Junior Entreprise",
       href: "p.p",
       badges: [],
       location: "On site",
-      title: "Senior Member",
+      title: "Senior Project Department Member",
       logoUrl: "https://scontent.ftun9-1.fna.fbcdn.net/v/t1.6435-9/120766494_2744481162537655_8929039621265870715_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=yGEU5ZoISSUQ7kNvgFpirP5&_nc_ht=scontent.ftun9-1.fna&oh=00_AYA51XgdwvHuHsg47omaW7tzC0-XE-Heu-0Y00Wrsw3vGw&oe=66EC6979",
       start: "September 2023",
       end: "Present",
@@ -354,6 +366,62 @@ export const DATA = {
         }
       ],
       image: "/coficab.jpg",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "DevOps Project",
+      href: "",
+      dates: "Mars 2024 - May 2024",
+      active: true,
+      description:
+      "Led a DevOps initiative to develop and deploy a Spring Boot and Angular full-stack dormmanagement system, emphasizing seamless CI/CD and cloud infrastructure.",
+      technologies: [
+        "Team Leadership",
+        "CI/CD",
+        "Docker",
+        "SonarQube",
+        "Jenkins",
+        "Grafana ",
+        "Prometheus "
+
+        
+
+        
+      ],
+      links: [
+        
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/Twin6_Wizards",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/devops.png",
+      video:
+        "pmmpm",
+    },
+    {
+      title: "Object Detection Using Adaptive Mask R-CNN in Optical Remote Sensing Images",
+      href: "",
+      dates: "Mars 2024 - May 2024",
+      active: true,
+      description:
+      "Developed an advanced object detection model tailored for optical remote sensing images, significantly boosting detection accuracy using the Adaptive Mask R-CNN architecture.",
+      technologies: [
+        "Adaptive Mask R-CNN architecture",
+        "deep learning",
+        
+
+        
+
+        
+      ],
+      links: [
+        
+        
+      ],
+      image: "/object.png",
       video:
         "pmmpm",
     },
