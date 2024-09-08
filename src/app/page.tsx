@@ -21,6 +21,9 @@ import { MdEmail } from "react-icons/md";
 import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { CardDemo } from "@/components/magicui/CardDemo";
+import { HackathonCard } from "@/components/hackathon-card";
+import { FollowerPointerCard } from "@/components/ui/following-pointer";
+import { FollowingPointerDemo } from "@/components/FollowingPointer";
 
 
 
@@ -48,27 +51,27 @@ export default function Home() {
                 text={DATA.description}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
-              <div className="flex space-x-4 pt-4">
-                <a href="https://github.com/tahahamdii" target="_blank" rel="noopener noreferrer">
-                <FaGithub className="text-xl hover:text-gray-600" />
-                </a>
-                <a href="https://linkedin.com/in/hamditaha" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="text-xl hover:text-gray-600" />
-                </a>
-                <a href="https://medium.com/@hamdi.taha" target="_blank" rel="noopener noreferrer">
-                <FaMedium className="text-xl hover:text-gray-600" />
-                </a>
-                <a href="mailto:hamdi.taha@esprit.tn" target="_blank" rel="noopener noreferrer">
-                <FaEnvelope className="text-xl hover:text-gray-600" />
-                </a>
-                <a href="https://leetcode.com/u/tahahamdii" target="_blank" rel="noopener noreferrer">
-                <TbBrandLeetcode className="text-xl hover:text-gray-600" />
-                </a>
-              
+                <div className="flex space-x-4 pt-4">
+                  <a href="https://github.com/tahahamdii" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className="text-xl hover:text-gray-600" />
+                  </a>
+                  <a href="https://linkedin.com/in/hamditaha" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className="text-xl hover:text-gray-600" />
+                  </a>
+                  <a href="https://medium.com/@hamdi.taha" target="_blank" rel="noopener noreferrer">
+                    <FaMedium className="text-xl hover:text-gray-600" />
+                  </a>
+                  <a href="mailto:hamdi.taha@esprit.tn" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope className="text-xl hover:text-gray-600" />
+                  </a>
+                  <a href="https://leetcode.com/u/tahahamdii" target="_blank" rel="noopener noreferrer">
+                    <TbBrandLeetcode className="text-xl hover:text-gray-600" />
+                  </a>
+
                 </div>
-                </BlurFade>
+              </BlurFade>
             </div>
-            
+
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
@@ -89,9 +92,9 @@ export default function Home() {
         </BlurFade>
       </section>
       <section>
-      <BlurFade delay={BLUR_FADE_DELAY * 5}>
-              <MarqueeDemo1/>
-      </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <MarqueeDemo1 />
+        </BlurFade>
       </section>
       {/* <section className="rounded-2xl">
         <div className="flex min-h-0 flex-col gap-y-3 ">
@@ -204,58 +207,99 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
-      <BlurFade delay={BLUR_FADE_DELAY * 10}>
-              <MarqueeDemo/>
-      </BlurFade>
-      </section>
-      
-      
-      <section id="contact">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-0">
-          <div className="space-y-3 col-span-1 mt-12">
-      <BlurFade delay={BLUR_FADE_DELAY * 10}>
-        <div className="space-y-3 mt-16">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-            Get in Touch
-          </h2>
-          <p className="text-base font-normal tracking-tight font-sans italic">
 
-            Im currently looking for new opportunities, my inbox is always open.
+      <section id="hackathons">
+  <div className="space-y-12 w-full py-12">
+    <BlurFade delay={BLUR_FADE_DELAY * 13}>
+      <div className="flex flex-col items-center justify-center space-y-4 text-center">
+        <div className="space-y-2">
+          <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+            Blogging
+          </div>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            I love blogging and writing
+          </h2>
+          <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            I have a passion for blogging and sharing my thoughts through writing. Whether it's about new technologies, industry trends, or personal insights. You can check out my recent blogs and papers to see the latest topics I've been exploring.
           </p>
-          <p className="text-base font-normal tracking-tight font-sans">
-      <a 
-        href="mailto:hamdi.taha@esprit.tn" 
-        className="text-blue-500 hover:underline italic"
-      >
-        
-        hamdi.taha@esprit.tn
-      </a>
-      </p>
         </div>
-        </BlurFade>
-    </div>
-    <BlurFade delay={BLUR_FADE_DELAY * 10}>
-    <div className="col-span-1 flex justify-center items-center">
-      <PinContainer title="+216 95 092 609">
-        <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
-          <Image
-            src={img}
-            alt="aa"
-            layout="fill"
-            objectFit="cover"
-            className="rounded-lg z-0"
-          />
-          <div className="flex flex-1 w-full rounded-lg mt-2 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
-        </div>
-      </PinContainer>
-    </div>
+      </div>
     </BlurFade>
 
-    
+    <BlurFade delay={BLUR_FADE_DELAY * 14}>
+    <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
+              {DATA.hackathons.map((project, id) => (
+                <BlurFade
+                  key={project.title + project.dates}
+                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
+                >
+                  <HackathonCard
+                    title={project.title}
+                    description={project.description}
+                    location={project.location}
+                    dates={project.dates}
+                    image={project.image}
+                    links={project.links}
+                  />
+                </BlurFade>
+              ))}
+            </ul>
+    </BlurFade>
   </div>
 </section>
-  
+
+      <section>
+        <BlurFade delay={BLUR_FADE_DELAY * 10}>
+          <MarqueeDemo />
+        </BlurFade>
+      </section>
+
+
+      <section id="contact">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 px-4 text-center md:px-6 w-full py-0">
+          <div className="space-y-3 col-span-1 mt-12">
+            <BlurFade delay={BLUR_FADE_DELAY * 10}>
+              <div className="space-y-3 mt-16">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Get in Touch
+                </h2>
+                <p className="text-base font-normal tracking-tight font-sans italic">
+
+                  Im currently looking for new opportunities, my inbox is always open.
+                </p>
+                <p className="text-base font-normal tracking-tight font-sans">
+                  <a
+                    href="mailto:hamdi.taha@esprit.tn"
+                    className="text-blue-500 hover:underline italic"
+                  >
+
+                    hamdi.taha@esprit.tn
+                  </a>
+                </p>
+              </div>
+            </BlurFade>
+          </div>
+          <BlurFade delay={BLUR_FADE_DELAY * 10}>
+            <div className="col-span-1 flex justify-center items-center">
+              <PinContainer title="+216 95 092 609">
+                <div className="flex basis-full flex-col p-2 tracking-tight text-slate-100/50 sm:basis-1/4 w-[10rem] h-[10rem] relative z-10">
+                  <Image
+                    src={img}
+                    alt="aa"
+                    layout="fill"
+                    objectFit="cover"
+                    className="rounded-lg z-0"
+                  />
+                  <div className="flex flex-1 w-full rounded-lg mt-2 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" />
+                </div>
+              </PinContainer>
+            </div>
+          </BlurFade>
+
+
+        </div>
+      </section>
+
 
 
     </main>

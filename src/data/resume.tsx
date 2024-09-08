@@ -427,5 +427,78 @@ export const DATA = {
     },
     
   ],
+
+  hackathons: [
+    {
+      title: "Non-invasive Cancer Detection and Treatment",
+      dates: "Aug 16, 2024",
+      location: "",
+      description:
+        "combining ultrasound-based sonogenetics with AI to detect and treat cancer non-invasively.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+    {
+      title: "Hack The North",
+      dates: "September 14th - 16th, 2018",
+      location: "Waterloo, Ontario",
+      description:
+        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+      image:
+        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      links: [],
+    },
+  ],
+   blogContents : [
+    {
+      slug: "non-invasive-cancer-treatment",
+      author: "Taha Hamdi",
+      date: "28th July 2024",
+      title: "AI and Sonogenetics in Cancer Detection and Treatment",
+      description: "Learn how AI and sonogenetics are changing cancer treatment by using ultrasound to detect and target cancer cells non-invasively, improving diagnosis and patient comfort.",
+      image: "/image.png",
+      authorAvatar: "/talan.png",
+    },
+    {
+      slug: "non-invasive-cancer-treatment",
+      author: "Taha Hamdi",
+      date: "28th July 2024",
+      title: "AI and Sonogenetics in Cancer Detection and Treatment",
+      description: "Learn how AI and sonogenetics are changing cancer treatment by using ultrasound to detect and target cancer cells non-invasively, improving diagnosis and patient comfort.",
+      image: "/image.png",
+      authorAvatar: "/talan.png",
+    },
+    {
+      slug: "non-invasive-cancer-treatment",
+      author: "Taha Hamdi",
+      date: "28th July 2024",
+      title: "AI and Sonogenetics in Cancer Detection and Treatment",
+      description: "Learn how AI and sonogenetics are changing cancer treatment by using ultrasound to detect and target cancer cells non-invasively, improving diagnosis and patient comfort.",
+      image: "/image.png",
+      authorAvatar: "/talan.png",
+    },
+    // {
+    //   slug: "amazing-tailwindcss-grid-layouts",
+    //   author: "Taha Hamdi",
+    //   date: "28th March, 2023",
+    //   title: "Amazing Tailwindcss Grid Layout Examples",
+    //   description: "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.",
+    //   image: "/demo/thumbnail.png",
+    //   authorAvatar: "/manu.png",
+    // },
+    // {
+    //   slug: "amazing-tailwindcss-da-layouts",
+    //   author: "Taha Hamdi",
+    //   date: "28th March, 2023",
+    //   title: "Amazing Tailwindcss Grid Layout ad",
+    //   description: "Grids are cool, but Tailwindcss grids are cooler. In this article, we will learn how to create amazing Grid layouts with Tailwindcs grid and React.",
+    //   image: "/demo/thumbnail.png",
+    //   authorAvatar: "/manu.png",
+    // }
+    // Add more blog entries here
+  ]
   
 } as const;
