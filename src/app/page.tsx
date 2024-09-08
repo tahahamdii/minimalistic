@@ -20,6 +20,7 @@ import { FaMedium } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 import { TbBrandLeetcode } from "react-icons/tb";
+import { CardDemo } from "@/components/magicui/CardDemo";
 
 
 
