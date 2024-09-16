@@ -21,6 +21,7 @@ import { MdEmail } from "react-icons/md";
 import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { CardDemo } from "@/components/magicui/CardDemo";
+import SparklesText from "@/components/magicui/sparkles-text";
 
 
 
@@ -66,8 +67,10 @@ export default function Home() {
                 </a>
               
                 </div>
+
                 </BlurFade>
             </div>
+            
             
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -75,9 +78,13 @@ export default function Home() {
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
+            
           </div>
+          
         </div>
+        
       </section>
+            
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -86,7 +93,17 @@ export default function Home() {
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
             {DATA.summary}
           </Markdown>
+          
         </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+
+        <div>
+      <a href="https://taha-bucket-v1.s3.amazonaws.com/Sonocure.pdf" target="_blank" rel="noopener noreferrer">
+        <SparklesText text="check out my last research paper 📝" />
+      </a>
+    </div>
+            </BlurFade>
+
       </section>
       <section>
       <BlurFade delay={BLUR_FADE_DELAY * 5}>

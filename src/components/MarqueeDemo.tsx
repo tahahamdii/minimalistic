@@ -11,7 +11,7 @@ const reviews = [
     name: "Imem Hamdi",
     username: "@imem",
     body: "During a hackathon, Taha turned a challenging idea into a winning project in no time. He’s not only brilliant but also makes work enjoyable. Much Love!",
-    img: "https://media.licdn.com/dms/image/v2/D4E35AQFYzUyQAbT-bw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719666552589?e=1724965200&v=beta&t=gUyxkJMfdsIR07d4cp1OVwMbYaOYwcT3e7AiUArUOYk",
+    img: "https://media.licdn.com/dms/image/v2/D4E35AQFYzUyQAbT-bw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1719666552589?e=1727028000&v=beta&t=RG8LLVj56iUYOBUCSdnIG9KBmf07K51x8uR1wIN234c",
   },
   {
     name: "Yousri Hamdene",
