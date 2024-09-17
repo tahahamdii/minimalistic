@@ -20,6 +20,9 @@ export const DATA = {
     "C++",
     "Python",
     "Go",
+    "React",
+    "Angualr",
+    "Flutter",
     "Postgres",
     "Docker",
     "Kubernetes",
@@ -164,6 +167,7 @@ export const DATA = {
         "Angular",
         "Node.js",
         "Jenkins",
+        
       ],
       links: [
         
