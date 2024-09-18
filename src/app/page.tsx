@@ -41,7 +41,7 @@ export default function Home() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`hi, i'm taha `}
+                text={`hi i'm taha `}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl italic"
