@@ -265,7 +265,7 @@ export const DATA = {
         
         {
           type: "GitHub",
-          href: "https://github.com/tahahamdii/SignLanguageProject",
+          href: "https://github.com/tahahamdii/sign-language-application",
           icon: <Icons.github className="size-3" />,
         }
       ],
