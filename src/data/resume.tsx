@@ -423,7 +423,11 @@ export const DATA = {
       ],
       links: [
         
-        
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/mask-rcnn-object-detection",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
       image: "/object.png",
       video:
