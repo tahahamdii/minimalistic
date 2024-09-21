@@ -85,7 +85,7 @@ export const DATA = {
       href: "https://tn.talan.com/",
       badges: [],
       location: "On site",
-      title: "Ai Intern",
+      title: "Sofware Engineering Intern",
       logoUrl: "./talan.png",
       start: "Juin 2024",
       end: "August 2024",
@@ -94,10 +94,10 @@ export const DATA = {
     },
     {
       company: "COFICAB",
-      href: "p.p",
+      href: "https://www.linkedin.com/posts/hamditaha_reactjs-nodejs-mongodb-activity-7198027348510687232-IFqC?utm_source=share&utm_medium=member_desktop",
       badges: [],
       location: "On site",
-      title: "Sofware Engineer Intern",
+      title: "Sofware Engineering Intern",
       logoUrl: "./cropped-COFICAB-LOGO-Square.png",
       start: "Jannuary 2024",
       end: "May 2024",
@@ -106,15 +106,15 @@ export const DATA = {
     },
     {
       company: "ESPRIT",
-      href: "p.p",
+      href: "https://esprit.tn/",
       badges: [],
       location: "On site",
-      title: "Intern in Neurogaming and Pathfinding",
+      title: "Sofware Engineering Intern",
       logoUrl: "https://pbs.twimg.com/profile_images/1394261489054277638/rijXG1C__400x400.jpg",
       start: "May 2023",
       end: "September 2023",
       description:
-        "I was lucky enough to intern on a super cool Neurogaming and Pathfinding project, working with Rim Somaii. During this time, I got to jump in and help out with different parts of the project, using what I know about game development and deep learning.",
+        "I had the opportunity to intern on a super cool Neurogaming and Pathfinding project, working with Rim Somaii. During this time, I got to jump in and help out with different parts of the project, using what I know about game development and deep learning.",
     },
     
     {
@@ -123,7 +123,7 @@ export const DATA = {
       badges: [],
       location: "On site",
       title: "Senior Project Department Member",
-      logoUrl: "https://scontent.ftun9-1.fna.fbcdn.net/v/t1.6435-9/120766494_2744481162537655_8929039621265870715_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=yGEU5ZoISSUQ7kNvgFpirP5&_nc_ht=scontent.ftun9-1.fna&oh=00_AYA51XgdwvHuHsg47omaW7tzC0-XE-Heu-0Y00Wrsw3vGw&oe=66EC6979",
+      logoUrl: "/inceptumje_logo.jpg",
       start: "September 2023",
       end: "Present",
       description:
