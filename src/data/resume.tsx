@@ -32,10 +32,7 @@ export const DATA = {
     "Scikit-learn",
     "Keras",
     "Hugging Face Transformers",
-    "XGBoost",
-    "Azure Virtual Machines",
-    "Azure Kubernetes Service",
-    "Azure Machine Learning",
+    "AWS",
     "DevOps",
 
     
