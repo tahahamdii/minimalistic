@@ -20,6 +20,13 @@ const reviews = [
       body: "",
       img: "https://taha-bucket-v1.s3.amazonaws.com/Incepptum.jpg",
     },
+    {
+      name: "  Incepptum",
+      username: "@Incepptum",
+      body: "",
+      img: "https://taha-bucket-v1.s3.amazonaws.com/IMG_6634.jpg",
+    },
+
     
   ];
 
