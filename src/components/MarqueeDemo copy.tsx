@@ -6,7 +6,7 @@ const reviews = [
       name: "Chamseddine Madouri",
       username: "@chamseddine",
       body: "",
-      img: "https://scontent.ftun10-1.fna.fbcdn.net/v/t1.15752-9/456217862_301961526339592_826389115268265531_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=3prLWIzn1KoQ7kNvgEbNfiM&_nc_ht=scontent.ftun10-1.fna&oh=03_Q7cD1QFhRR-gOZgjMFvZWuszzoTvweQtXe2oSIJBOXHMqQr9VQ&oe=66F00A59",
+      img: "https://taha-bucket-v1.s3.amazonaws.com/IMG_7080+(1).jpg",
     },
     {
       name: "coficab coficab",
