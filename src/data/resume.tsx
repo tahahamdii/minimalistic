@@ -12,7 +12,7 @@ export const DATA = {
     "Software Engineer / Junior entrepreneur. ",
   summary:
     "it's me Taha from Tunis. I'm a final-year software engineering student at [**_ESPRIT_**](https://esprit.tn/).  I specialize in fullstack development and machine learning, recently interned [**_@Talan_**](https://www.linkedin.com/company/talan-tunisie/) for the summer, and i'm currently looking for **an end-of-study internship**, i'm highly collaborative and i always aim to bring my best to the team ! ",
-  avatarUrl: "/newedit.png",
+  avatarUrl: "https://taha-bucket-v1.s3.amazonaws.com/newedit.png",
   skills: [
     "Spring Boot",
     "Node.js",
