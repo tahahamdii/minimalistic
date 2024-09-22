@@ -5,20 +5,20 @@ const reviews = [
     {
       name: "Chamseddine Madouri",
       username: "@chamseddine",
-      body: "Working with Taha has been such a pleasure! His enthusiasm and skill in AI are unmatched. Always ready with a smile and innovative ideas, he's the type of person who makes any project a success.",
+      body: "",
       img: "https://scontent.ftun10-1.fna.fbcdn.net/v/t1.15752-9/456217862_301961526339592_826389115268265531_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=3prLWIzn1KoQ7kNvgEbNfiM&_nc_ht=scontent.ftun10-1.fna&oh=03_Q7cD1QFhRR-gOZgjMFvZWuszzoTvweQtXe2oSIJBOXHMqQr9VQ&oe=66F00A59",
     },
     {
       name: "Ahmed Chebbi",
       username: "@ahmed",
-      body: "Taha is not only brilliant but also one of the most approachable and genuine people I've worked with. His ability to simplify complex problems while keeping the energy high is remarkable. I can't wait to collaborate again!",
+      body: "",
       img: "https://media.licdn.com/dms/image/v2/D4D22AQFReBJVAHLEEw/feedshare-shrink_1280/feedshare-shrink_1280/0/1709540153838?e=1727308800&v=beta&t=T4eca5EGg8YLU8E6q5EUSeE5bGcZSk9B1vO7xA1bmYE",
     },
     {
-      name: "Imem Hamdi",
-      username: "@imem",
-      body: "Taha brings a rare mix of professionalism and warmth. His dedication to his work is inspiring, and he knows how to make every moment fun and productive. A true star in his field!",
-      img: "https://scontent.ftun10-1.fna.fbcdn.net/v/t1.15752-9/456218431_472824579001316_8407392906289465516_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_ohc=zJiN29s5mGIQ7kNvgFw56MY&_nc_ht=scontent.ftun10-1.fna&_nc_gid=At70tNv_QDRsIFlYcnS477F&oh=03_Q7cD1QGmHzl-QvhcQpJuQlZxDg_Mg8YqO4WKGmXsgP-J83fi3w&oe=66F004C9",
+      name: "  Incepptum",
+      username: "@Incepptum",
+      body: "",
+      img: "https://taha-bucket-v1.s3.amazonaws.com/Incepptum.jpg",
     },
     
   ];
