@@ -102,6 +102,18 @@ export const DATA = {
         "Worked on a smart web app designed for industrial energy management, focusing on real-time monitoring and optimization of energy consumption .",
     },
     {
+      company: "Nursy Ai",
+      href: "https://www.linkedin.com/company/nursyai/",
+      badges: [],
+      location: "On site",
+      title: "Co Founder and Business Developer",
+      logoUrl: "/nursyai_logo.jpg",
+      start: "April 2023",
+      end: "September 2024",
+      description:
+        "NursyAI is at the forefront of healthcare innovation, harnessing the power of artificial intelligence to transform the way we approach healthcare. Our cutting-edge AI solutions are designed to enhance patient care and streamline healthcare processes.",
+    },
+    {
       company: "ESPRIT",
       href: "https://esprit.tn/",
       badges: [],
