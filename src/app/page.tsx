@@ -98,7 +98,7 @@ export default function Home() {
         <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
 
         <div>
-      <a href="https://taha-bucket-v1.s3.amazonaws.com/Sonocure.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="https://taha-bucket-v1.s3.amazonaws.com/SonocureArticle.pdf" target="_blank" rel="noopener noreferrer">
         <SparklesText text="check out my last research paper 📝" />
       </a>
     </div>
