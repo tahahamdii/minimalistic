@@ -34,7 +34,7 @@ const reviews = [
   {
     name: "Omar Khedher",
     username: "@omar",
-    body: "Taha’s enthusiasm and expertise made our last project a real success. He’s not only talented but also a great person to work with.",
+    body: "He’s not only talented but also a great person to work with.",
     img: "https://media.licdn.com/dms/image/v2/D4E03AQEsilSBOP4qdA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724248539200?e=1729728000&v=beta&t=4PtEzPxZFrfr-713qMPG6ScKekRVWx9nGEbuhojq6Y4",
   }
 ];
