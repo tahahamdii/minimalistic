@@ -218,6 +218,31 @@ export const DATA = {
       video: "aa",
     },
     {
+      title: "Fraud Detection System",
+      href: "",
+      dates: "June 2023 - August 2023",
+      active: true,
+      description:
+        "Implemented machine learning models for real-time anomaly detection in financial transactions, improving fraud detection and alert systems",
+      technologies: [
+        "Python",
+        "TensorFlow",
+        "Scikit-learn",
+        "PostgreSQL",
+        "Power BI",
+        "PySpark",
+        "Docker",
+        "XGBoost"
+        
+      ],
+      links: [
+     
+        
+      ],
+      image: "/Fraud.jpg",
+      video: "aa",
+    },
+    {
       title: "Adenocarcinoma Detection",
       href: "",
       dates: "July 2024 - August 2024",
