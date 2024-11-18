@@ -14,11 +14,18 @@ export const DATA = {
     "it's me Taha from Tunis. I'm a final-year software engineering student at [**_ESPRIT_**](https://esprit.tn/). Throughout my career, I have developed a strong foundation in the software development life cycle, including requirements gathering, design, implementation, and maintenance, recently interned [**_@Talan_**](https://www.linkedin.com/company/talan-tunisie/) for the summer, and i'm currently looking for **an end-of-study internship**, i'm highly collaborative and i always aim to bring my best to the team ! ",
   avatarUrl: "https://taha-bucket-v1.s3.amazonaws.com/newedit.png",
   skills: [
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Keras",
+    "Hugging Face Transformers",
+    "AWS",
+    "DevOps",
     "Spring Boot",
     "Node.js",
     "Java",
     "C++",
-    "Python",
     "Go",
     "React",
     "Angualr",
@@ -27,15 +34,7 @@ export const DATA = {
     "Docker",
     "Kubernetes",
     "Jenkins",
-    "TensorFlow",
-    "PyTorch",
-    "Scikit-learn",
-    "Keras",
-    "Hugging Face Transformers",
-    "AWS",
-    "DevOps",
-
-    
+  
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -123,7 +122,7 @@ export const DATA = {
       start: "May 2023",
       end: "September 2023",
       description:
-        "I had the opportunity to intern on a super cool Neurogaming and Pathfinding project, working with Rim Somaii. During this time, I got to jump in and help out with different parts of the project, using what I know about game development and deep learning.",
+        "Developed a real-time fraud detection system for financial institutions. Created a responsive front-end interface and a robust back-end system. Implemented APIs to facilitate seamless interaction with various data services.",
     },
     
     {
