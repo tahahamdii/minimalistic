@@ -9,7 +9,7 @@ export const DATA = {
   location: "Tunis, Tunisia",
   locationLink: "",
   description:
-    "Software Engineer / Junior entrepreneur. ",
+    "Last year software engineering student ",
   summary:
     "it's me Taha from Tunis. I'm a final-year software engineering student at [**_ESPRIT_**](https://esprit.tn/). Throughout my career, I have developed a strong foundation in the software development life cycle, including requirements gathering, design, implementation, and maintenance, recently interned [**_@Talan_**](https://www.linkedin.com/company/talan-tunisie/) for the summer, and i'm currently looking for **an end-of-study internship**, i'm highly collaborative and i always aim to bring my best to the team ! ",
   avatarUrl: "https://taha-bucket-v1.s3.amazonaws.com/newedit.png",
@@ -236,7 +236,11 @@ export const DATA = {
         
       ],
       links: [
-     
+        {
+          type: "GitHub",
+          href: "https://github.com/tahahamdii/OncoFlow-Deep-Learning-MLOps-for-Adenocarcinoma",
+          icon: <Icons.github className="size-3" />,
+        }
         
       ],
       image: "/Fraud.jpg",
