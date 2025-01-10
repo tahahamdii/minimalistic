@@ -39,7 +39,7 @@ export default function Home() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
-            <Meteors number={10} />
+            {/* <Meteors number={10} /> */}
 
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
