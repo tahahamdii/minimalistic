@@ -22,6 +22,7 @@ import { MarqueeDemo1 } from "@/components/MarqueeDemo copy";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { CardDemo } from "@/components/magicui/CardDemo";
 import SparklesText from "@/components/magicui/sparkles-text";
+import Meteors from "@/components/ui/meteors";
 
 
 
@@ -34,9 +35,12 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
+
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
             <div className="flex-col flex flex-1 space-y-1.5">
+            <Meteors number={10} />
+
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
@@ -49,6 +53,7 @@ export default function Home() {
                 text={DATA.description}
               />
               <BlurFade delay={BLUR_FADE_DELAY}>
+                
               <div className="flex space-x-4 pt-4">
                 <a href="https://github.com/tahahamdii" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="text-xl hover:text-gray-600" />
@@ -99,7 +104,7 @@ export default function Home() {
 
         <div>
       <a href="https://taha-bucket-v1.s3.amazonaws.com/SonocureArticle.pdf" target="_blank" rel="noopener noreferrer">
-        <SparklesText text="check out my last research paper 📝" />
+        <SparklesText text="check out my last research paper " />
       </a>
     </div>
             </BlurFade>
