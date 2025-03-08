@@ -23,6 +23,7 @@ import { TbBrandLeetcode } from "react-icons/tb";
 import { CardDemo } from "@/components/magicui/CardDemo";
 import SparklesText from "@/components/magicui/sparkles-text";
 import Meteors from "@/components/ui/meteors";
+import AnimatedNavbar from "@/components/new/AnimatedNavbar";
 
 
 
@@ -33,7 +34,12 @@ const SLIDE_COUNT = 5
 const SLIDES = Array.from(Array(SLIDE_COUNT).keys())
 export default function Home() {
   return (
+    <div>
+      
+    <AnimatedNavbar/>
+    
     <main className="flex flex-col min-h-[100dvh] space-y-10">
+      
       <section id="hero">
 
         <div className="mx-auto w-full max-w-2xl space-y-8">
@@ -281,5 +287,6 @@ export default function Home() {
 
 
     </main>
+    </div>
   );
 }

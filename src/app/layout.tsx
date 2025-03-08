@@ -7,6 +7,7 @@ import Navbar from "@/components/navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Analytics } from "@vercel/analytics/react"
+import Cursor from "@/components/new/Cursor";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -33,8 +34,12 @@ export default function RootLayout({
         )}
       >
         
+        
+        <Cursor />
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
+            
+          
             {children}
             <Navbar/>
           </TooltipProvider>
