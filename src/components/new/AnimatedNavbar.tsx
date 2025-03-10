@@ -63,7 +63,7 @@ function ImageLamp({ position, delay, isRamadan }: { position: number; delay: nu
                 }}
             >
                 <Image
-                    src={isRamadan ? "/ramadan.png" : "/moon.png"}
+                    src={isRamadan ? "/ramadann.png" : "/moon.png"}
                     alt={isRamadan ? "Ramadan Lamp" : "Moon"}
                     width={32}  // Matches the w-8 (8 * 4 = 32px)
                     height={32} // Matches the h-8 (8 * 4 = 32px)
