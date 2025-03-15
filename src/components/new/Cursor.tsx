@@ -2,7 +2,8 @@
 
 import { useEffect, useRef } from "react"
 import { motion, useMotionValue, useSpring } from "framer-motion"
-
+import Image from "next/image"
+import cursor from '../../data/cursor.png';
 export default function Cursor() {
   const cursorRef = useRef<HTMLDivElement>(null)
   const ringRef = useRef<HTMLDivElement>(null)
@@ -19,8 +20,8 @@ export default function Cursor() {
 
   useEffect(() => {
     const moveCursor = (e: MouseEvent) => {
-      cursorX.set(e.clientX - 8)
-      cursorY.set(e.clientY - 8)
+      cursorX.set(e.clientX - 16) // Center the image (assuming 32x32px image)
+      cursorY.set(e.clientY - 16) // Center the image
       ringX.set(e.clientX - 20)
       ringY.set(e.clientY - 20)
     }
@@ -33,13 +34,13 @@ export default function Cursor() {
           e.target.closest("[data-cursor-hover]"))
       ) {
         ringRef.current!.style.transform = "scale(1.5)"
-        ringRef.current!.style.borderColor = "rgba(255, 255, 0, 0.8)"
+        ringRef.current!.style.opacity = "1"
       }
     }
 
     const handleHoverOut = () => {
       ringRef.current!.style.transform = "scale(1)"
-      ringRef.current!.style.borderColor = "rgba(255, 255, 0, 0.4)"
+      ringRef.current!.style.opacity = "0.6"
     }
 
     window.addEventListener("mousemove", moveCursor)
@@ -59,20 +60,30 @@ export default function Cursor() {
     <>
       <motion.div
         ref={cursorRef}
-        className="fixed top-0 left-0 w-4 h-4 rounded-full pointer-events-none z-[9999]"
+        className="fixed top-0 left-0 pointer-events-none z-[9999]"
         style={{
           x: cursorXSpring,
           y: cursorYSpring,
-          background: "radial-gradient(circle, rgba(255, 255, 0, 0.9) 0%, rgba(255, 255, 0, 0.4) 100%)",
         }}
-      />
+      >
+        <div className="w-8 h-8 relative">
+          <Image
+            src={cursor} // Place your cursor image in the public folder
+            alt="Cursor"
+            fill
+            sizes="32px"
+            priority
+          />
+        </div>
+      </motion.div>
       <motion.div
         ref={ringRef}
         className="fixed top-0 left-0 w-10 h-10 rounded-full border-2 pointer-events-none z-[9998] transition-all duration-200"
         style={{
           x: ringXSpring,
           y: ringYSpring,
-          borderColor: "rgba(255, 255, 0, 0.4)",
+          borderColor: "rgba(0, 0, 0, 0.6)",
+          opacity: 0.6,
         }}
       />
     </>

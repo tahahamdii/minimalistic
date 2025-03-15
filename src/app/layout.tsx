@@ -35,7 +35,7 @@ export default function RootLayout({
       >
         
         
-        <Cursor />
+        {/* <Cursor /> */}
         <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
             
